@@ -57,7 +57,7 @@ img {
 }
 
 .no-padding {
-    text-align: center;
+    padding: 0%;
 }
 
 .centrar-texto{
@@ -164,3 +164,27 @@ img {
     background-color: var(--primeria);
 
 }
+.cursos{
+    list-style: none;
+}
+
+.widget-cursos{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.widget-cursos:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-cursos__info{
+    font-family: var(--fuenteheading);
+    font-weight: bold;
+}
+
+.widget-cursos__label{
+    font-size: normal;
+}
+
+
