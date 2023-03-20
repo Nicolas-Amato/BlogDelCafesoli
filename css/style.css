@@ -207,3 +207,8 @@ img {
 .sobre-nosotros__texto {
     flex-basis: 50%;
 }
+
+
+/** opcional para buscadores que no soporten el gap se puede hacer 
+modificando gap por justify-content: space-between en el @media
+y modificando tamb el flex basis de 50% pasaria a cacl(50% - 1rem) **/
