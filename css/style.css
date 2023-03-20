@@ -187,4 +187,21 @@ img {
     font-size: normal;
 }
 
+.footer {
+    background-color: var(--negro);
+    padding:  3rem;
+    margin-top: 3rem;
+}
 
+/** sobre nosotros **/
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+    }
+}
+
+.sobre-nosotros__texto,
+.sobre-nosotros__imagen {
+    flex-basis: 50%;
+}
