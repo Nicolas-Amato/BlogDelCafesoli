@@ -168,7 +168,8 @@ img {
     list-style: none;
 }
 
-.widget-cursos{
+.widget-cursos,
+.curso{
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
 }
@@ -178,12 +179,14 @@ img {
     margin-bottom: 0;
 }
 
-.widget-cursos__info{
+.widget-cursos__info,
+.cursos__info{
     font-family: var(--fuenteheading);
     font-weight: bold;
 }
 
-.widget-cursos__label{
+.widget-cursos__label,
+.cursos__label{
     font-size: normal;
 }
 
@@ -212,3 +215,23 @@ img {
 /** opcional para buscadores que no soporten el gap se puede hacer 
 modificando gap por justify-content: space-between en el @media
 y modificando tamb el flex basis de 50% pasaria a cacl(50% - 1rem) **/
+
+/** curso **/
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+.cursos:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+
+}
