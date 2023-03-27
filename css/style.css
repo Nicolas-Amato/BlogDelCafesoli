@@ -233,5 +233,12 @@ y modificando tamb el flex basis de 50% pasaria a cacl(50% - 1rem) **/
         grid-template-columns: 1fr 2fr;
         column-gap: 2rem;
     }
+}
 
+/**  apartado contacto **/
+
+.contacto-bg {
+    background-image: url(../img/contacto.jpg);
+    background-size: 40rem;  
+    background-size: cover;
 }
