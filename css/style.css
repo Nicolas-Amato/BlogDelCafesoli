@@ -239,6 +239,33 @@ y modificando tamb el flex basis de 50% pasaria a cacl(50% - 1rem) **/
 
 .contacto-bg {
     background-image: url(../img/contacto.jpg);
-    background-size: 40rem;  
+    height: 40rem;  
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field{
+    flex: 1;
+    border: ipx solid var(--gris);
+}
+.campo__field--textarea{ 
+    height: 200px;
 }

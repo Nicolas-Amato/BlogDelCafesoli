@@ -29,14 +29,34 @@
         <div class="header__texto">
             <h2 class="no-margin">Blog De Cafe con Consejos y Cursos</h2>
             <p class="no-margin">Aprende de los Expertos con las mejores recetas y consejos</p>
-
         </div>
-
     </header>
     
     <main class="contenedor">
-        <h3 class="centrar-texto"> Contacto</h3>
+        <h3 class="centrar-texto"> Contacto </h3>
+         
         <div class="contacto-bg"></div>
+        
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" type="text" placeholder="tu nombre" id="nombre">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="E-mail">E-mail</label>
+                <input class="campo__field" type="text" placeholder=" Tu Correo" id="E-mail">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="Mensaje">Mensaje</label>
+                <textarea class="campo__field--textarea" id="Mensaje"></textarea>
+            </div>
+            
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
        
     </main>
 
