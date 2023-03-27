@@ -264,7 +264,7 @@ y modificando tamb el flex basis de 50% pasaria a cacl(50% - 1rem) **/
 }
 .campo__field{
     flex: 1;
-    border: ipx solid var(--gris);
+    border: 1px solid var(--gris);
 }
 .campo__field--textarea{ 
     height: 200px;
